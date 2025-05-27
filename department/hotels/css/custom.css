@@ -2,12 +2,11 @@ body,
 html {
 	line-height: 1.8;
 	font-family: 'Poppins', sans-serif;
-	color: #555e58;
+	color: #000000;
 	text-transform: capitalize;
 	font-weight: 400;
 	margin: 0px;
 	padding: 0px;
-	height: 100%;
 }
 
 
@@ -121,7 +120,7 @@ a:focus {
 .wrapper {
 	position: relative;
 	width: 100%;
-	/* overflow: auto; */
+	overflow: auto;
 }
 
 /*=========sidebar---design------*/
@@ -136,7 +135,7 @@ a:focus {
 	width: 260px;
 	overflow: auto;
 	transition: all 0.3s;
-	background-color: #fff;
+	background-color: #c81c1c;
 	box-shadow: 0 0 30px 0 rgba(200 200 200 / 20%);
 }
 
@@ -158,7 +157,7 @@ a:focus {
 		position: relative;
 		float: right;
 		transition: all 0.3s;
-		height: 100%;
+	}
 
 	#content.active {
 		width: 100%;
@@ -190,18 +189,23 @@ a:focus {
 }
 
 #sidebar .sidebar-header {
-	padding: 20px;
-	background-color: #fff;
+	padding: 10px 20px;
+	background-color: #c81c1c;
 	border-bottom: 1px solid #eee;
 }
 
 .sidebar-header h3 {
-	color: #333;
-	font-size: 12px;
+	color: #ffffff;
+	font-size: 16px;
 	margin: 0px;
+	text-align: center;
 	text-transform: uppercase;
 	transition: all 0.5s ease;
 	font-weight: 600;
+}
+.sidebar-header .inside-sub-head{
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .sidebar-header h3 img {
@@ -214,19 +218,19 @@ a:focus {
 }
 
 #sidebar ul li.active>a {
-	color: #4c7cf3;
+	color: #000000;
 	background-color: #DBE5FD;
 }
 
 
 #sidebar ul li.active>a i {
-	color: #4c7cf3;
+	color: #0048ff;
 }
 
 
 
 #sidebar ul li a:hover {
-	color: #4c7cf3;
+	color: #0048ff;
 	background-color: #DBE5FD;
 }
 
@@ -235,7 +239,7 @@ a:focus {
 	position: absolute;
 	right: 22px;
 	top: 18px;
-	color: #777777;
+	color: #000000;
 }
 
 #sidebar ul li.dropdown {
@@ -252,9 +256,9 @@ a:focus {
 	line-height: 30px;
 	font-size: 15px;
 	position: relative;
-	font-weight: 400;
+	font-weight: 600;
 	display: block;
-	color: #000000;
+	color: #ffffff;
 	text-transform: capitalize;
 }
 
@@ -282,7 +286,7 @@ a:focus {
 	z-index: 9;
 	position: relative;
 	padding: 15px 30px;
-	background-color: #a41e22db;
+	background-color: #c81c1c;
 }
 
 .xd-topbar {
@@ -291,8 +295,8 @@ a:focus {
 }
 
 input[type="search"] {
-	background-color: #4a5263;
-	color: #fff;
+	background-color: #ffffff;
+	color: #000000;
 	padding-left: 20px;
 	border: none;
 	border-radius: 50px 0px 0px 50px;
@@ -304,7 +308,7 @@ input[type="search"] {
 
 
 .xp-searchbar .btn {
-	background-color: #4a5263;
+	background-color: #0051ff;
 	color: #fff;
 	font-weight: 600;
 	font-size: 16px;
@@ -314,10 +318,10 @@ input[type="search"] {
 
 
 .xp-breadcrumbbar .page-title {
-	font-size: 20px;
-	color: #fff;
+	font-size: 25px;
+	color: #000000;
 	margin-bottom: 0;
-	margin-top: 0;
+	margin-top: 5px;
 }
 
 .breadcrumb {
@@ -328,7 +332,7 @@ input[type="search"] {
 }
 
 .breadcrumb .breadcrumb-item a {
-	color: #777777;
+	color: #000000;
 }
 
 .breadcrumb-item.active {
@@ -345,7 +349,7 @@ input[type="search"] {
 }
 
 .navbar {
-	/* background-color: #a41e22db; */
+	background-color: #c81c1c;
 	color: #fff;
 }
 
@@ -453,7 +457,7 @@ input[type="search"] {
 .dropdown-menu li>a .material-icons {
 	position: relative;
 	top: 3px;
-	color: #777;
+	color: #000000;
 	margin-right: 6px;
 	font-size: 16px;
 
@@ -483,8 +487,8 @@ input[type="search"] {
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
-	border: 2px solid #a41e22db;
-	background-color: #4c7cf3;
+	border: 2px solid #c81c1c;
+	background-color: #0048ff;
 }
 
 /*---navbardesign -end-----*/
@@ -504,7 +508,7 @@ input[type="search"] {
 }
 
 .table-title {
-	background: #a41e22db;
+	background: #c81c1c;
 	color: #fff;
 	position: sticky;
 	top: 0;
@@ -774,7 +778,7 @@ table.table .avatar {
 
 /*-------footer design start------*/
 footer {
-	background-color: #a41e22db;
+	background-color: #c81c1c;
 	color: #fff;
 	text-align: center;
 	padding: 10px 30px;
@@ -832,7 +836,7 @@ footer {
 .box-info {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-	grid-gap: 14px;
+	grid-gap: 40px;
 	margin-top: 20px;
 }
 
@@ -1047,7 +1051,7 @@ footer {
 	column-gap: 5px;
   }
   .gender input {
-	accent-color: rgb(130, 106, 251);
+	accent-color: #0051ff;
   }
   .form :where(.gender input, .gender label) {
 	cursor: pointer;
@@ -1076,7 +1080,7 @@ footer {
 	border: none;
 	cursor: pointer;
 	transition: all 0.2s ease;
-	background: rgb(130, 106, 251);
+	background: #0051ff;
   }
   .form button:hover {
 	background: rgb(88, 56, 250);

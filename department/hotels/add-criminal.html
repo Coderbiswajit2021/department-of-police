@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-	<title>crud dashboard</title>
+	<title>Commissionerate Police | Trackinn</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!----css3---->
@@ -36,19 +36,20 @@
 
 		<div id="sidebar">
 			<div class="sidebar-header">
-				<h3><img src="img/logo.png" class="img-fluid" /><span>Commissionerate Police</span></h3>
+				<h3><img src="img/logo.png" class="img-fluid" /> <br> <span>Police Commissionerate</span> <br> <span
+						class="inside-sub-head">Bhubaneswar-Cuttack</span></h3>
 			</div>
 			<ul class="list-unstyled component m-0">
-				<li class="active">
-					<a href="index.html" class="dashboard"><i class="material-icons">dashboard</i>dashboard </a>
+				<li >
+					<a href="index.html" class="dashboard"><i class="material-icons">dashboard</i>Dashboard </a>
 				</li>
 
-				<li class="dropdown">
+				<li class="dropdown active" >
 					<a href="#homeSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
 						<i class="material-icons">group_add</i>Add Suspicious List
 					</a>
 					<ul class="collapse list-unstyled menu" id="homeSubmenu1">
-						<li><a href="add-suspect.html">Add Suspect List</a></li>
+						<li ><a href="add-suspect.html">Add Suspect List</a></li>
 						<li><a href="add-criminal.html">Add Criminal List</a></li>
 						<!-- <li><a href="#">layout 3</a></li> -->
 					</ul>
@@ -84,7 +85,7 @@
 					</a>
 					<ul class="collapse list-unstyled menu" id="homeSubmenu4">
 						<li><a href="download-guest-list.html">Download Guest Details</a></li>
-						<li><a href="#">Download Reports</a></li>
+						<!-- <li><a href="#">Download Reports</a></li> -->
 						<!-- <li><a href="#">Pages 3</a></li> -->
 					</ul>
 				</li>
@@ -94,7 +95,7 @@
 						<i class="material-icons">border_color</i>forms
 					</a>
 					<ul class="collapse list-unstyled menu" id="homeSubmenu5">
-						<li><a href="#">Form 1</a></li>
+						<li><a href="sarai-license.html">Sarai License Apply form</a></li>
 						<li><a href="#">Form 2</a></li>
 						<li><a href="#">Form 3</a></li>
 					</ul>
@@ -112,7 +113,7 @@
 				</li> -->
 
 
-				<li class="dropdown">
+				<!-- <li class="dropdown">
 					<a href="#homeSubmenu7" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
 						<i class="material-icons">content_copy</i>Pages
 					</a>
@@ -121,7 +122,7 @@
 						<li><a href="#">Pages 2</a></li>
 						<li><a href="#">Pages 3</a></li>
 					</ul>
-				</li>
+				</li> -->
 
 
 				<!-- <li class="">
@@ -221,13 +222,7 @@
 
 					</div>
 
-					<div class="xp-breadcrumbbar text-center">
-						<h4 class="page-title">Add Criminal List</h4>
-						<!-- <ol class="breadcrumb">
-					  <li class="breadcrumb-item"><a href="#">Vishweb</a></li>
-					  <li class="breadcrumb-item active" aria-curent="page">Dashboard</li>
-					</ol> -->
-					</div>
+
 
 
 				</div>
@@ -237,19 +232,27 @@
 
 			<!------main-content-start----------->
 
+			<div class="xp-breadcrumbbar text-center">
+				<h4 class="page-title">Add Criminal List</h4>
+				<!-- <ol class="breadcrumb">
+					  <li class="breadcrumb-item"><a href="#">Vishweb</a></li>
+					  <li class="breadcrumb-item active" aria-curent="page">Dashboard</li>
+					</ol> -->
+			</div>
+
 			<div class="main-content">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="table-data" id="upload">
-                            <div class="order">
-                                <div class="head">
-                                    <h3>Add Details</h3>
-                                    <!-- <a href="view-data.html">View Data</a> -->
-                                    <!-- <i class='bx bx-filter'></i> -->
-                                </div>
-                                <div style="display: flex; flex-direction:column">
-                                    <label >Upload ID Card</label>
-                                    <input type="file" placeholder="Enter current value" required  style="position: relative;
+							<div class="order">
+								<div class="head">
+									<h3>Add Details</h3>
+									<!-- <a href="view-data.html">View Data</a> -->
+									<!-- <i class='bx bx-filter'></i> -->
+								</div>
+								<div style="display: flex; flex-direction:column">
+									<label>Upload ID Card</label>
+									<input type="file" placeholder="Enter current value" required style="position: relative;
                                     height: 50px;
                                     width: 50%;
                                     outline: none;
@@ -258,47 +261,47 @@
                                     margin-top: 8px;
                                     border: 1px solid #ddd;
                                     border-radius: 6px;
-                                    padding: 0 15px;"/>
-                                </div>
-                                <form action="#" class="form">
-                                   
-                                    <div class="column">
-                                        <div class="input-box">
-                                            <label >Name</label>
-                                            <input type="text" placeholder="Biswajit" required />
-                                        </div>
-                                        <div class="input-box">
-                                            <label>Mobile Number</label>
-                                            <input type="number" placeholder="8917234233" required />
-                                        </div>
-                                    </div>
-                                    <div class="column">
-                                        <div class="input-box">
-                                            <label>Email ID</label>
-                                            <input type="email" placeholder="xyz@gmail.com" required />
-                                        </div>
-                                        <div class="input-box">
-                                            <label>No Of Cases</label>
-                                            <input type="number" placeholder="2" required />
-                                        </div>
-                                        <div class="input-box">
-                                            <label>Suspect From</label>
-                                            <input type="number" placeholder="10/12/2024" required />
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="input-box">
-                                        <label>Address</label>
-                                        <input type="text" placeholder="Enter Address" required />
-                                      </div>
-            
-                                    <button>Submit</button>
-                                </form>
-                            </div>
-            
-                        </div>
+                                    padding: 0 15px;" />
+								</div>
+								<form action="#" class="form">
+
+									<div class="column">
+										<div class="input-box">
+											<label>Name</label>
+											<input type="text" placeholder="Biswajit" required />
+										</div>
+										<div class="input-box">
+											<label>Mobile Number</label>
+											<input type="number" placeholder="8917234233" required />
+										</div>
+									</div>
+									<div class="column">
+										<div class="input-box">
+											<label>Email ID</label>
+											<input type="email" placeholder="xyz@gmail.com" required />
+										</div>
+										<div class="input-box">
+											<label>No Of Cases</label>
+											<input type="number" placeholder="2" required />
+										</div>
+										<div class="input-box">
+											<label>Suspect From</label>
+											<input type="number" placeholder="10/12/2024" required />
+										</div>
+									</div>
+
+									<div class="input-box">
+										<label>Address</label>
+										<input type="text" placeholder="Enter Address" required />
+									</div>
+
+									<button>Submit</button>
+								</form>
+							</div>
+
+						</div>
 					</div>
-					
+
 
 
 
